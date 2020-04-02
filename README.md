@@ -1,7 +1,3 @@
-
-
-[![](https://img.shields.io/badge/@Bboysoul-black?style=flat)](https://www.bboy.app)
-
 ![](https://img.shields.io/github/followers/bboysoulcn)
 ![](https://img.shields.io/github/forks/bboysoulcn/Fort)
 ![](https://img.shields.io/github/stars/bboysoulcn/Fort)
@@ -107,3 +103,5 @@ group2:
 `https://github.com/gojuukaze/tty_menu`
 
 `https://github.com/huangguang93/terminal_menu`
+
+[![](https://img.shields.io/badge/@Bboysoul-black?style=flat)](https://www.bboy.app)
