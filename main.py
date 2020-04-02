@@ -25,7 +25,23 @@ def menu(hosts_list):
         quit
 
 def print_help():
-    pass
+    print(" _____          _")
+    print("|  ___|__  _ __| |_")
+    print("| |_ / _ \| '__| __|")
+    print("|  _| (_) | |  | |_")
+    print("|_|  \___/|_|   \__|")
+    print("\n")
+    print("-g --group    input hosts group name")
+    print("-f --filename input filename")
+    print("-h --help     Get help")
+    print("-v --version  Print version info\n")
+    print("      Powered by Bboysoul")
+    print("      Blog:https://www.bboy.app/")
+
+def print_version():
+    print("         V1.1    ")
+    print("  Powered by Bboysoul")
+    print("Blog:https://www.bboy.app/")
 
 def get_opt():
     # 从终端获取参数输入
@@ -37,10 +53,10 @@ def get_opt():
             if opt_name in ('-f','--filename'):
                 command['filename'] = opt_val
             if opt_name in ('-h','--help'):
-                print("help")
+                print_help()
                 exit()
             if opt_name in ('-v','--version'):
-                print('v1.0 Powered by Bboysoul')
+                print_version()
                 exit()
             if opt_name in ('-g','--group'):
                 command['group'] = opt_val
@@ -68,7 +84,7 @@ def read_hosts(command):
     if 'filename' in command.keys():
         filename = command['filename']
     else:
-        filename = './hosts'
+        filename = './hosts.yaml'
     if 'group' in command.keys():
         group = [command['group']]
     else:
