@@ -4,6 +4,7 @@ from menu import Menu
 import sys
 import getopt
 import yaml
+from sys import exit
 
 # 定义菜单
 def menu(hosts_list):
