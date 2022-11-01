@@ -1,2 +1,2 @@
 tty-menu==1.0.3
-PyYAML==5.2
+PyYAML==5.4
